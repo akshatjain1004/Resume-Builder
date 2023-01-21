@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import Header from "./components/Header/Header";
 import Body from "./components/Body/Body";
-import Login from "./components/login";
+
 import "./App.css";
 import { gapi } from "gapi-script";
 import SignIn from "./components/login";
@@ -25,15 +25,8 @@ function App() {
 
   return (
     <div className="App">
-      {!signin && <Login change={change} />}
-      {signin && (
-        <div style={{ padding: "1%", display: "flex" }}>
-          <Typography style={{ padding: "1%" }}>{profile.name}</Typography>
-          <Avatar alt={profile.name} src={profile.imageUrl} />
-        </div>
-      )}
-      {signin && <Header />}
-      {signin && <Body />}
+      <Header />
+      <Body />
     </div>
   );
 }
