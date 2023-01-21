@@ -7,13 +7,13 @@ A resume grabs the attention of employers and recruiters. Sells your strongest s
 So it is necessary to make it to the point and catchy.
 
 ## Features
-Login and Registration
-Google Authentication
-Simple and easy to navigate UI
-5 different templates
-Changing of colors and styles
-Live rendering of updated resumes
-Download the resume in pdf
+### Login and Registration
+### Google Authentication
+### Simple and easy to navigate UI
+### 5 different templates
+### Changing of colors and styles
+### Live rendering of updated resumes
+### Download the resume in pdf
 
 
 ![image](https://user-images.githubusercontent.com/86458423/213858248-942b0321-e77b-4fe6-8f7f-ed8b56fc9b8a.png)
