@@ -16,7 +16,7 @@ function Body() {
     education: "Education",
     achievement: "Achievements",
     summary: "Summary",
-    other: "Other",
+    
   };
   const resumeRef = useRef();
 
@@ -52,16 +52,17 @@ function Body() {
       sectionTitle: sections.summary,
       detail: "",
     },
-    [sections.other]: {
-      id: sections.other,
-      sectionTitle: sections.other,
-      detail: "",
-    },
+    // [sections.other]: {
+    //   id: sections.other,
+    //   sectionTitle: sections.other,
+    //   detail: "",
+    // },
   });
 
   return (
+    <div className="mBody">
     <div className={styles.container}>
-      <p className={styles.heading}>Resume Builder</p>
+      <p className={styles.heading}>Build Your Resume</p>
       <div className={styles.toolbar}>
         <div className={styles.colors}>
           {colors.map((item) => (
@@ -99,6 +100,7 @@ function Body() {
           activeColor={activeColor}
         />
       </div>
+    </div>
     </div>
   );
 }
